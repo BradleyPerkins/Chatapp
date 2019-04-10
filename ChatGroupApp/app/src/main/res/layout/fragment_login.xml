@@ -24,7 +24,7 @@
 
         <EditText
             android:id="@+id/login_pass_et"
-            android:hint="Enter Email"
+            android:hint="Enter Password"
             android:imeOptions="actionNext"
             android:inputType="textPassword"
             android:layout_marginTop="12dp"
