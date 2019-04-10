@@ -1,4 +1,4 @@
-package com.bradperkins.chatgroupapp;
+package com.bradperkins.chatgroupapp.fragments;
 
 
 import android.content.Context;
@@ -13,6 +13,9 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.bradperkins.chatgroupapp.R;
+import com.bradperkins.chatgroupapp.utilities.FormUtils;
 
 
 /**

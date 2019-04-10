@@ -1,4 +1,4 @@
-package com.bradperkins.chatgroupapp;
+package com.bradperkins.chatgroupapp.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,6 +11,10 @@ import android.view.WindowManager;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.bradperkins.chatgroupapp.R;
+import com.bradperkins.chatgroupapp.fragments.RegisterFragment;
+import com.bradperkins.chatgroupapp.utilities.DataHelper;
+import com.bradperkins.chatgroupapp.utilities.UtilsHelper;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -24,7 +28,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class RegisterActivity extends AppCompatActivity implements RegisterFragment.RegListener{
+public class RegisterActivity extends AppCompatActivity implements RegisterFragment.RegListener {
 
     private FirebaseAuth mAuth;
     private DatabaseReference mRef;

@@ -1,4 +1,4 @@
-package com.bradperkins.chatgroupapp;
+package com.bradperkins.chatgroupapp.utilities;
 
 // Date 4/10/19
 // 
